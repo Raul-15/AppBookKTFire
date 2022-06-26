@@ -2,7 +2,10 @@ En el modulo de firebase implementar
 *Crashlytics: GGet clear, actionable insight into app
 issues that erode your app quality.
 
-
+OJO :
+AÑADIR
+        binding = ActivityRegisterBinding.inflate(layoutInflater)
+EN REGISTERACTIVITY YA QUE NO ESTA SUBIDA AL GITHUB
 
 
 21:45

@@ -37,7 +37,8 @@ class LoginActivity : AppCompatActivity() {
 
         //Handler click, not have account , goto register screen
         binding.noAccountTv.setOnClickListener {
-            startActivity(Intent(this, RegisterActivity::class.java))
+            startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
+
         }
 
         //Handler click, begin login
@@ -62,7 +63,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun validateData() {
         email = binding.emailEt.text.toString().trim()
-        password = binding.emailEt.text.toString().trim()
+        password = binding.passwordEt.text.toString().trim()
 
         // 2) Validate Data
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {

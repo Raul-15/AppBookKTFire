@@ -25,6 +25,7 @@ class DashboardUserActivity : AppCompatActivity() {
 
         //Handler click, logout
         binding.logoutButton.setOnClickListener {
+            firebaseAuth.signOut()
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }
