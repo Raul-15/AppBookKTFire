@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631281786144",
+    "project_id": "book-app-22a16",
+    "storage_bucket": "book-app-22a16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631281786144:android:dd8ca720258227a874cb45",
+        "android_client_info": {
+          "package_name": "com.example.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631281786144-8sss38i8c65oouc0k1ljdb3f7jgepk4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9O8Wte-YL_VVFWa2-wmV19F_eKU5Zd0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631281786144-8sss38i8c65oouc0k1ljdb3f7jgepk4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
